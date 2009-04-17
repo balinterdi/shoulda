@@ -15,6 +15,8 @@ end
 
 require 'shoulda/active_record/assertions'
 require 'shoulda/action_mailer/assertions'
+require 'shoulda/assertions'
+require 'shoulda/helpers'
 
 module ActionController #:nodoc: all
   module Integration
